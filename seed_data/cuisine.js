@@ -25,7 +25,7 @@ module.exports = [
     },
     {
         id: 7,
-        cuisine: "Vietcuisinese",
+        cuisine: "Vietnamese",
     },
     {
         id: 8,

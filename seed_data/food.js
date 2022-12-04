@@ -91,17 +91,17 @@ module.exports = [
     },
     {
         id: 19,
-        food: "Sushi",
+        food: "Onigiri",
         cuisine_id: 5,
     },
     {
         id: 20,
-        food: "Donburi",
+        food: "Karrage",
         cuisine_id: 5,
     },
     {
         id: 21,
-        food: "Ramen",
+        food: "Yakitori",
         cuisine_id: 5,
     },
     {

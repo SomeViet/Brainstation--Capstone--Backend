@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 app.use("/cuisine", cuisineRoute);
 
-app.use("/food", cuisineRoute);
+app.use("/food", foodRoute);
 
 app.get("/", (_req, res) => {
     res.send("You have accessed a Hungry Database");
