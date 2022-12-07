@@ -13,7 +13,7 @@ module.exports = [
     },
     {
         id: 4,
-        cuisine: "Mexian",
+        cuisine: "Mexican",
     },
     {
         id: 5,
