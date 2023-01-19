@@ -1,5 +1,7 @@
 // Update with your config settings.
 
+const { SITE } = process.env;
+
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
@@ -7,7 +9,7 @@ module.exports = {
     development: {
         client: "mysql",
         connection: {
-            host: "hungry-database-backend.cmtseenrwa8c.us-west-2.rds.amazonaws.com",
+            host: SITE,
             port: "3306",
             user: "root",
             password: "rootroot",

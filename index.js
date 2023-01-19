@@ -4,8 +4,6 @@ const app = express();
 const cors = require("cors");
 app.use(cors());
 
-const { PORT, SITE } = process.env;
-
 const cuisineRoute = require("./routes/cuisineRoute");
 const foodRoute = require("./routes/foodRoute");
 
@@ -21,5 +19,5 @@ app.get("/", (_req, res) => {
 });
 
 app.listen(1234, () => {
-    console.log(`Database running at ${SITE}`);
+    console.log(`Database is being listened`);
 });
