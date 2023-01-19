@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 app.use(cors());
 
-const { PORT } = process.env;
+const { PORT, SITE } = process.env;
 
 const cuisineRoute = require("./routes/cuisineRoute");
 const foodRoute = require("./routes/foodRoute");
@@ -20,6 +20,6 @@ app.get("/", (_req, res) => {
     res.send("You have accessed a Hungry Database");
 });
 
-app.listen(PORT, () => {
-    console.log(`Database running at http://localhost:${PORT}`);
+app.listen(1234, () => {
+    console.log(`Database running at ${SITE}`);
 });

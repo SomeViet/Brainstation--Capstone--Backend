@@ -7,10 +7,11 @@ module.exports = {
     development: {
         client: "mysql",
         connection: {
-            host: "127.0.0.1",
+            host: "hungry-database-backend.cmtseenrwa8c.us-west-2.rds.amazonaws.com",
+            port: "3306",
             user: "root",
             password: "rootroot",
-            database: "hungry_database",
+            database: "hungry-database",
             charset: "utf8",
         },
     },
